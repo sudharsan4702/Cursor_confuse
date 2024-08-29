@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PointerZone</title>
+    <style>
+        .fake_cursor{
+            position: absolute;
+            width: 48px;
+            height: 48px;
+            /* background-color: red; */
+            /* border-radius: 10px; */
+            z-index: 1000;
+            background-image: url("p1.png");
+        }
+        body{
+            cursor: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="full-screen">Full Screen</button>
+    <div class="fake_cursor"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
